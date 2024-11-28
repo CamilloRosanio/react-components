@@ -1,3 +1,13 @@
+/* CUSTOM VARIABLES */
+
+:root {
+  --height_header: 80px;
+  --height_footer: 80px;
+  --height_main: calc(100vh - (var(--height_header)) - (var(--height_footer)));
+}
+
+
+
 /* RESET RULES */
 
 * {
@@ -8,4 +18,16 @@
 
 body {
   background-color: rgb(228, 228, 228);
+}
+
+header {
+  height: var(--height_header);
+}
+
+main {
+  height: var(--height_main);
+}
+
+footer {
+  height: var(--height_footer);
 }
