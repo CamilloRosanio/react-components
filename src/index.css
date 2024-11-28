@@ -8,13 +8,17 @@
 
 
 
-/* RESET RULES */
+/* RESET */
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+
+
+/* GENERAL */
 
 body {
   background-color: rgb(228, 228, 228);
@@ -30,4 +34,13 @@ main {
 
 footer {
   height: var(--height_footer);
+}
+
+
+
+/* DEBUG */
+
+.debug {
+  background-color: rgb(180, 255, 161);
+  border: 1px dashed black;
 }

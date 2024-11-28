@@ -1,0 +1,14 @@
+.MyCard {
+    background-color: red;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+/* .imgContainer {
+    max-width: 600px;
+    max-height: 400px;
+} */
+
+.contentContainer {
+    background-color: blue;
+}
