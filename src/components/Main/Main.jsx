@@ -7,8 +7,10 @@ function Main() {
             <main>
                 <div className="container">
                     <div className="d-flex justify-content-center align-items-center">
-                        <div className="row col-3 g-4">
-                            <MyCard />
+                        <div className="gallery d-flex justify-content-center">
+                            <div className="row">
+                                <MyCard />
+                            </div>
                         </div>
                     </div>
                 </div>

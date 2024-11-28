@@ -29,11 +29,18 @@ header {
 }
 
 main {
-  height: var(--height_main);
+  /* height: var(--height_main);
+  overflow: auto; */
+
+  padding-bottom: 3rem;
 }
 
 footer {
   height: var(--height_footer);
+}
+
+.gallery {
+  width: 70%;
 }
 
 
