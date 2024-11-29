@@ -4,9 +4,12 @@
     max-width: 600px;
 }
 
+
+/* LE IMMAGINI ESCONO DAI CONTENITORI CON BORDER RADIUS.
+Per risolvere si danno regole di reset alle immagini come "overflow: hidden;" e "width: 100%;" */
 .MyCard img {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .contentContainer {
