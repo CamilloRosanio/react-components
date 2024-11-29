@@ -10,6 +10,15 @@
 
 /* RESET */
 
+
+/* LE IMMAGINI ESCONO DAI CONTENITORI CON BORDER RADIUS.
+Per risolvere si danno regole di reset alle immagini come "overflow: hidden;" e "width: 100%;" */
+
+img {
+  overflow: hidden;
+  width: 100%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

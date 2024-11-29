@@ -1,5 +1,8 @@
 import styles from './MyCard.module.css';
 
+// L'immagine DEVE essere importata come risorsa, perchè non si può utilizzare il PATH RELATIVO nel "src" a meno che la risorsa non sia un Asset PUBLIC
+import cardImage from '../../assets/img-example.jpeg'
+
 function MyCard() {
 
     return (
@@ -7,8 +10,7 @@ function MyCard() {
             <div className="col">
                 <div className={styles.MyCard}>
                     <div>
-                        <img src="src\assets\img-example.jpeg" alt="" className='img-fluid' />
-                        {/* <img src="../../assets/img-example.jpeg" alt="" className='img-fluid' /> */}
+                        <img src={cardImage} alt="" className='img-fluid' />
                     </div>
                     <div className={styles.contentContainer}>
                         <h3 className='h5'>Post title</h3>
